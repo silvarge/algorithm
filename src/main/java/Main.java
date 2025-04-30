@@ -1,4 +1,5 @@
 import brute_force.CandyGame3085;
+import brute_force.NandM15650;
 import java.io.*;
 import java.util.*;
 import math.GetPrimeNumber1929;
@@ -10,7 +11,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    LaundryCeoDonghyuk2720 sol = new LaundryCeoDonghyuk2720();
+    NandM15650 sol = new NandM15650();
     sol.solution();
   }
 }
