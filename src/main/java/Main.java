@@ -2,6 +2,7 @@ import brute_force.CandyGame3085;
 import brute_force.NandM15650;
 import data_structure.GetMiddleNumber2696;
 import data_structure.JosephusProblem1158;
+import data_structure.Queue10845;
 import java.io.*;
 import java.util.*;
 import math.GetPrimeNumber1929;
@@ -14,7 +15,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    GetMiddleNumber2696 sol = new GetMiddleNumber2696();
+    Queue10845 sol = new Queue10845();
     sol.solution();
   }
 }
