@@ -1,5 +1,6 @@
 import brute_force.CandyGame3085;
 import brute_force.NandM15650;
+import data_structure.GetMiddleNumber2696;
 import data_structure.JosephusProblem1158;
 import java.io.*;
 import java.util.*;
@@ -13,7 +14,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    JosephusProblem1158 sol = new JosephusProblem1158();
+    GetMiddleNumber2696 sol = new GetMiddleNumber2696();
     sol.solution();
   }
 }
