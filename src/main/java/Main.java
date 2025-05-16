@@ -1,5 +1,6 @@
 import brute_force.CandyGame3085;
 import brute_force.NandM15650;
+import data_structure.Card2_2164;
 import data_structure.GetMiddleNumber2696;
 import data_structure.JosephusProblem1158;
 import data_structure.Queue10845;
@@ -15,7 +16,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    Queue10845 sol = new Queue10845();
+    Card2_2164 sol = new Card2_2164();
     sol.solution();
   }
 }
