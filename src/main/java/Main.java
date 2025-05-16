@@ -2,8 +2,10 @@ import brute_force.CandyGame3085;
 import brute_force.NandM15650;
 import data_structure.Card2_2164;
 import data_structure.GetMiddleNumber2696;
+import data_structure.JosephusProblem0_11866;
 import data_structure.JosephusProblem1158;
 import data_structure.Queue10845;
+import data_structure.Queue2_18258;
 import java.io.*;
 import java.util.*;
 import math.GetPrimeNumber1929;
@@ -16,7 +18,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    Card2_2164 sol = new Card2_2164();
+    JosephusProblem0_11866 sol = new JosephusProblem0_11866();
     sol.solution();
   }
 }
