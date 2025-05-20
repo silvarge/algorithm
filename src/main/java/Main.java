@@ -7,6 +7,7 @@ import data_structure.JosephusProblem1158;
 import data_structure.Queue10845;
 import data_structure.Queue2_18258;
 import data_structure.Stack10828;
+import data_structure.Zero10773;
 import java.io.*;
 import java.util.*;
 import math.GetPrimeNumber1929;
@@ -19,7 +20,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    Stack10828 sol = new Stack10828();
+    Zero10773 sol = new Zero10773();
     sol.solution();
   }
 }
