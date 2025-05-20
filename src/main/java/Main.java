@@ -21,7 +21,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    BalancedWorld4949 sol = new BalancedWorld4949();
+    MathIsOnline19532 sol = new MathIsOnline19532();
     sol.solution();
   }
 }

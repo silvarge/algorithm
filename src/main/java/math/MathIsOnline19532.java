@@ -3,29 +3,27 @@ package math;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Map;
 
 public class MathIsOnline19532 {
 
   public void solution() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    int[] prepared = Arrays.stream(br.readLine().split(" ")).mapToInt(
-        Integer::parseInt).toArray();
+    String[] prepared = br.readLine().split(" ");
 
-    int a = prepared[0];  int b = prepared[1];  int c = prepared[2];
-    int d = prepared[3];  int e = prepared[4];  int f = prepared[5];
+    int a = Integer.parseInt(prepared[0]);
+    int b = Integer.parseInt(prepared[1]);
+    int c = Integer.parseInt(prepared[2]);
+    int d = Integer.parseInt(prepared[3]);
+    int e = Integer.parseInt(prepared[4]);
+    int f = Integer.parseInt(prepared[5]);
 
-//    for (int y = -1000; y < 1000; y++) {
-//      int n = c - b * y;
-//      if((a != 0) && ((n % a) == 0)) {
-//        int x = n / a;
-//        if(d * x + e * y == f) {
-//          System.out.println(x + " " + y);
-//          return;
-//        }
-//      }
-//    }
-
+    for (int i = -999; i <= 999; i++) {
+      for (int j = -999; j <= 999; j++) {
+        if((a*i + b*j == c) && (d*i + e*j == f)) {
+          System.out.println(i + " " + j);
+          return;
+        }
+      }
+    }
   }
 }
