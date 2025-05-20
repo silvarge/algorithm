@@ -1,5 +1,6 @@
 import brute_force.CandyGame3085;
 import brute_force.NandM15650;
+import data_structure.BalancedWorld4949;
 import data_structure.Card2_2164;
 import data_structure.GetMiddleNumber2696;
 import data_structure.JosephusProblem0_11866;
@@ -20,7 +21,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    Zero10773 sol = new Zero10773();
+    BalancedWorld4949 sol = new BalancedWorld4949();
     sol.solution();
   }
 }
