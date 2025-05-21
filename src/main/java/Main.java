@@ -8,6 +8,7 @@ import data_structure.JosephusProblem1158;
 import data_structure.Queue10845;
 import data_structure.Queue2_18258;
 import data_structure.Stack10828;
+import data_structure.StackSequence1874;
 import data_structure.Zero10773;
 import java.io.*;
 import java.util.*;
@@ -21,7 +22,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    MathIsOnline19532 sol = new MathIsOnline19532();
+    StackSequence1874 sol = new StackSequence1874();
     sol.solution();
   }
 }
