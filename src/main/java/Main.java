@@ -2,6 +2,7 @@ import brute_force.CandyGame3085;
 import brute_force.NandM15650;
 import data_structure.BalancedWorld4949;
 import data_structure.Card2_2164;
+import data_structure.Editor1406;
 import data_structure.GetMiddleNumber2696;
 import data_structure.JosephusProblem0_11866;
 import data_structure.JosephusProblem1158;
@@ -22,7 +23,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    StackSequence1874 sol = new StackSequence1874();
+    Editor1406 sol = new Editor1406();
     sol.solution();
   }
 }
