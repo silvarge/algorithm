@@ -11,6 +11,7 @@ import data_structure.Queue2_18258;
 import data_structure.Stack10828;
 import data_structure.StackSequence1874;
 import data_structure.Zero10773;
+import graph.DFSandBFS1260;
 import java.io.*;
 import java.util.*;
 import math.GetPrimeNumber1929;
@@ -23,7 +24,7 @@ import set_and_map.PocketMaster1620;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    Editor1406 sol = new Editor1406();
+    DFSandBFS1260 sol = new DFSandBFS1260();
     sol.solution();
   }
 }
