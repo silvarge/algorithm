@@ -20,8 +20,8 @@ public class Plus123 {
       dp[i] = dp[i - 1] + dp[i - 2] + dp[i - 3];
     }
 
-    for(int i =0; i<t; i++){
-      System.out.println(dp[Integer.parseInt(br.readLine())-1]);
+    for (int i = 0; i < t; i++) {
+      System.out.println(dp[Integer.parseInt(br.readLine()) - 1]);
     }
   }
 }

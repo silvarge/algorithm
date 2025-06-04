@@ -9,6 +9,7 @@ import java.util.StringTokenizer;
 
 
 public class NnM1 {
+
   public void solution() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     StringTokenizer st = new StringTokenizer(br.readLine());
@@ -20,9 +21,9 @@ public class NnM1 {
     backTracking(list, n, m);
   }
 
-  public static void backTracking(List<Integer> list, int n, int m){
-    if(list.size() == m) {
-      for (int r: list) {
+  public static void backTracking(List<Integer> list, int n, int m) {
+    if (list.size() == m) {
+      for (int r : list) {
         System.out.print(r + " ");
       }
       System.out.println();
@@ -32,7 +33,7 @@ public class NnM1 {
       if (!list.contains(i)) {
         list.add(i);
         backTracking(list, n, m);
-        list.remove(list.size()-1);
+        list.remove(list.size() - 1);
       }
     }
   }

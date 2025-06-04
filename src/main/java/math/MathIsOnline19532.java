@@ -19,7 +19,7 @@ public class MathIsOnline19532 {
 
     for (int i = -999; i <= 999; i++) {
       for (int j = -999; j <= 999; j++) {
-        if((a*i + b*j == c) && (d*i + e*j == f)) {
+        if ((a * i + b * j == c) && (d * i + e * j == f)) {
           System.out.println(i + " " + j);
           return;
         }

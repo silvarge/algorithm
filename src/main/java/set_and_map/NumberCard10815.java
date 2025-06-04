@@ -3,11 +3,7 @@ package set_and_map;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 
@@ -30,7 +26,7 @@ public class NumberCard10815 {
     StringBuilder sb = new StringBuilder();
     for (int i = 0; i < m; i++) {
       int key = Integer.parseInt(st.nextToken());
-      sb.append(cardList.contains(key) ? 1: 0).append(" ");
+      sb.append(cardList.contains(key) ? 1 : 0).append(" ");
     }
     System.out.println(sb);
   }

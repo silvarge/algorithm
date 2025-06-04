@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SortNumber2750 {
+
   public void solution() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     List<Integer> arr = new ArrayList<>();

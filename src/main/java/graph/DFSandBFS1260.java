@@ -45,7 +45,7 @@ public class DFSandBFS1260 {
     visited[value] = true;
     sb.append(value).append(" ");
 
-    if(value == graph.length) {
+    if (value == graph.length) {
       return;
     }
 
@@ -65,7 +65,7 @@ public class DFSandBFS1260 {
     while (!queue.isEmpty()) {
       int temp = queue.poll();
       for (int i = 1; i < graph.length; i++) {
-        if(graph[temp][i] == 1 && !visited[i]) {
+        if (graph[temp][i] == 1 && !visited[i]) {
           queue.add(i);
           visited[i] = true;
           sb.append(i).append(" ");

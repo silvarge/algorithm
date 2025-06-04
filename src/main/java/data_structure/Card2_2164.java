@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Card2_2164 {
+
   public void solution() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     int N = Integer.parseInt(br.readLine());
@@ -18,7 +19,7 @@ public class Card2_2164 {
     }
 
     int temp;
-    while (queue.size() > 1){
+    while (queue.size() > 1) {
       queue.poll();
       temp = queue.poll();
       queue.offer(temp);

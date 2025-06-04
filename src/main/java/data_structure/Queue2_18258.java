@@ -18,12 +18,24 @@ public class Queue2_18258 {
     while (N-- > 0) {
       operation = br.readLine().split(" ");
       switch (operation[0]) {
-        case "push": queue.offerFirst(Integer.parseInt(operation[1])); break;
-        case "pop": sb.append(queue.peekLast() == null ? -1 : queue.pollLast()).append("\n"); break;
-        case "size": sb.append(queue.size()).append("\n"); break;
-        case "empty": sb.append(queue.isEmpty() ? 1 : 0).append("\n"); break;
-        case "front": sb.append(queue.peekLast() == null ? -1 : queue.peekLast()).append("\n"); break;
-        case "back": sb.append(queue.peekFirst() == null ? -1 : queue.peekFirst()).append("\n"); break;
+        case "push":
+          queue.offerFirst(Integer.parseInt(operation[1]));
+          break;
+        case "pop":
+          sb.append(queue.peekLast() == null ? -1 : queue.pollLast()).append("\n");
+          break;
+        case "size":
+          sb.append(queue.size()).append("\n");
+          break;
+        case "empty":
+          sb.append(queue.isEmpty() ? 1 : 0).append("\n");
+          break;
+        case "front":
+          sb.append(queue.peekLast() == null ? -1 : queue.peekLast()).append("\n");
+          break;
+        case "back":
+          sb.append(queue.peekFirst() == null ? -1 : queue.peekFirst()).append("\n");
+          break;
       }
     }
     System.out.println(sb);

@@ -25,7 +25,7 @@ public class StackSequence1874 {
         sb.append("+\n");
       }
 
-      if(stack.peek() == target) {
+      if (stack.peek() == target) {
         stack.pop();
         sb.append("-\n");
       } else {

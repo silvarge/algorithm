@@ -1,10 +1,11 @@
 package math;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.*;
-import java.io.*;
+import java.io.InputStreamReader;
 
 public class Fatigue22864 {
+
   public void solution() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     String[] input = br.readLine().split(" ");
@@ -15,7 +16,7 @@ public class Fatigue22864 {
     int result = 0, fatigue = 0;
 
     for (int i = 1; i <= 24; i++) {
-      if(fatigue + a > m) {
+      if (fatigue + a > m) {
         fatigue -= c;
         fatigue = Math.max(fatigue, 0);
         continue;

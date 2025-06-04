@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class CoordinateSort11651 {
+
   public void solution() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     int count = Integer.parseInt(br.readLine());
@@ -25,19 +26,22 @@ public class CoordinateSort11651 {
     }
   }
 
-  int[][] mergeSort(int[][] arr){
-    if(arr.length < 2) return arr;
+  int[][] mergeSort(int[][] arr) {
+    if (arr.length < 2) {
+      return arr;
+    }
 
-    int mid = arr.length/2; // 중간 값
+    int mid = arr.length / 2; // 중간 값
     int[][] low_arr = mergeSort(Arrays.copyOfRange(arr, 0, mid));
     int[][] high_arr = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
 
     int[][] mergedArr = new int[arr.length][2];
     int m = 0, l = 0, h = 0;
-    while (l < low_arr.length && h < high_arr.length){
-      if((low_arr[l][1] < high_arr[h][1]) || (low_arr[l][1] == high_arr[h][1] && low_arr[l][0] < high_arr[h][0])) {
+    while (l < low_arr.length && h < high_arr.length) {
+      if ((low_arr[l][1] < high_arr[h][1]) || (low_arr[l][1] == high_arr[h][1]
+          && low_arr[l][0] < high_arr[h][0])) {
         mergedArr[m++] = low_arr[l++];
-      }else {
+      } else {
         mergedArr[m++] = high_arr[h++];
       }
     }

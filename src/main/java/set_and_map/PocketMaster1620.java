@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PocketMaster1620 {
+
   public void solution() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     int[] number = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
@@ -23,9 +24,9 @@ public class PocketMaster1620 {
     // 문제
     for (int i = 0; i < number[1]; i++) {
       String readLine = br.readLine();
-      if(pokemonDict.containsKey(readLine)) {
+      if (pokemonDict.containsKey(readLine)) {
         sb.append(pokemonDict.get(readLine) + "\n");
-      }else{
+      } else {
         sb.append(reverseDict.get(Integer.parseInt(readLine)) + "\n");
       }
     }

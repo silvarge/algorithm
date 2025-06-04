@@ -20,7 +20,7 @@ public class NandM15650 {
 
   }
 
-  void print(int n){
+  void print(int n) {
     for (int i = 1; i <= n; i++) {
       if (arr[i] == 1) {
         sb.append(i + " ");
@@ -30,13 +30,13 @@ public class NandM15650 {
   }
 
   void f(int start, int n, int m) {
-    if(m < 1) {
+    if (m < 1) {
       print(n);
       return;
     }
     for (int i = start + 1; i <= n; i++) {
       arr[i] = 1;
-      f(i, n, m-1);
+      f(i, n, m - 1);
       arr[i] = 0;
     }
   }

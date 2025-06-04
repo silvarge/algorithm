@@ -15,9 +15,9 @@ public class Zero10773 {
     int num;
     for (int i = 0; i < N; i++) {
       num = Integer.parseInt(br.readLine());
-      if(num == 0){
+      if (num == 0) {
         stack.pop();
-      }else {
+      } else {
         stack.push(num);
       }
     }

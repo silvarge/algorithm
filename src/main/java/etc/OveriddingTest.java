@@ -1,7 +1,8 @@
 package etc;
 
 public class OveriddingTest {
-  public void result(){
+
+  public void result() {
 //    etc.Fish a = new etc.Fish();
 //    etc.Fish b = new etc.Fish(1);
     Fish c = new Whale();
@@ -18,14 +19,17 @@ public class OveriddingTest {
 }
 
 
-class Fish{
-  public Fish(){
+class Fish {
+
+  public Fish() {
     System.out.println("i'm fish");
   }
+
   public Fish(int a) {
     System.out.println(a + "etc.Fish");
   }
-  public void fn(){
+
+  public void fn() {
     System.out.println("FFFish");
   }
 }
