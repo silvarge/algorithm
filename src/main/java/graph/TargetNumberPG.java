@@ -6,9 +6,9 @@ public class TargetNumberPG {
 
   int result = 0;
 
-  public void solution(int[] numbers, int target) throws IOException {
+  public int solution(int[] numbers, int target) throws IOException {
     dfs(numbers, 0, 0, target);
-    System.out.println(result);
+    return result;
   }
 
   public void dfs(int[] numbers, int depth, int sum, int target) {
