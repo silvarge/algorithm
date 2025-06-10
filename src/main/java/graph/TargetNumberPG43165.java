@@ -2,7 +2,7 @@ package graph;
 
 import java.io.IOException;
 
-public class TargetNumberPG {
+public class TargetNumberPG43165 {
 
   int result = 0;
 

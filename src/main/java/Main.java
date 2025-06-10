@@ -1,9 +1,5 @@
-import graph.DFSandBFS1260;
-import graph.DFSandBFS1260_2;
-import graph.NofConnectedComponents11724;
-import graph.TargetNumberPG;
+import graph.TargetNumberPG43165;
 import java.io.IOException;
-import practice.DFSnBFS;
 
 public class Main {
 
@@ -13,7 +9,7 @@ public class Main {
 //    sol.solution();
 
     // Programmers
-    TargetNumberPG sol = new TargetNumberPG();
+    TargetNumberPG43165 sol = new TargetNumberPG43165();
     System.out.println(sol.solution(new int[]{4, 1, 2, 1}, 4));
 
     // 공부를 위한 코드
