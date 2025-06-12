@@ -1,14 +1,11 @@
-import graph.TargetNumberPG43165;
 import java.io.IOException;
-import string.AnnouncePassword4659;
-import string.LostParentheses1541;
-import string.StringSet14425;
+import string.ReverseWord2_17413;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    StringSet14425 sol = new StringSet14425();
+    ReverseWord2_17413 sol = new ReverseWord2_17413();
     sol.solution();
 
     // Programmers
