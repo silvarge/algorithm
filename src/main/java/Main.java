@@ -2,12 +2,13 @@ import graph.TargetNumberPG43165;
 import java.io.IOException;
 import string.AnnouncePassword4659;
 import string.LostParentheses1541;
+import string.StringSet14425;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    AnnouncePassword4659 sol = new AnnouncePassword4659();
+    StringSet14425 sol = new StringSet14425();
     sol.solution();
 
     // Programmers
