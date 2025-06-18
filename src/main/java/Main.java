@@ -2,6 +2,7 @@ import java.io.IOException;
 import practice.PriorityQueuePt;
 import set_and_map.RecommendProblemSystem1_21939;
 import set_and_map.SumOfNumber4_2015;
+import set_and_map.SumOfNumber4_2015_re;
 import set_and_map.UnheardOf1764;
 import string.ReverseWord2_2_17413;
 
@@ -9,7 +10,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    SumOfNumber4_2015 sol = new SumOfNumber4_2015();
+    SumOfNumber4_2015_re sol = new SumOfNumber4_2015_re();
     sol.solution();
 
     // Programmers
