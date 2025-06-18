@@ -1,5 +1,6 @@
 import java.io.IOException;
 import practice.PriorityQueuePt;
+import set_and_map.AtoB16953;
 import set_and_map.RecommendProblemSystem1_21939;
 import set_and_map.SumOfNumber4_2015;
 import set_and_map.SumOfNumber4_2015_re;
@@ -10,7 +11,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    SumOfNumber4_2015_re sol = new SumOfNumber4_2015_re();
+    AtoB16953 sol = new AtoB16953();
     sol.solution();
 
     // Programmers
