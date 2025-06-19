@@ -5,13 +5,14 @@ import set_and_map.RecommendProblemSystem1_21939;
 import set_and_map.SumOfNumber4_2015;
 import set_and_map.SumOfNumber4_2015_re;
 import set_and_map.UnheardOf1764;
+import set_and_map.Zoac3_20436;
 import string.ReverseWord2_2_17413;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    AtoB16953 sol = new AtoB16953();
+    Zoac3_20436 sol = new Zoac3_20436();
     sol.solution();
 
     // Programmers
