@@ -1,3 +1,4 @@
+import brute_force.SelectThreeNum1503;
 import java.io.IOException;
 import practice.PriorityQueuePt;
 import set_and_map.AtoB16953;
@@ -13,7 +14,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    CleanUpFile20291 sol = new CleanUpFile20291();
+    SelectThreeNum1503 sol = new SelectThreeNum1503();
     sol.solution();
 
     // Programmers
