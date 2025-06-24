@@ -1,3 +1,4 @@
+import brute_force.Larvae15721;
 import brute_force.SelectThreeNum1503;
 import java.io.IOException;
 import practice.PriorityQueuePt;
@@ -14,7 +15,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    SelectThreeNum1503 sol = new SelectThreeNum1503();
+    Larvae15721 sol = new Larvae15721();
     sol.solution();
 
     // Programmers
