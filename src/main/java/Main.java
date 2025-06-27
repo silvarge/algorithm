@@ -1,3 +1,5 @@
+import brute_force.AcademicBook16508;
+import brute_force.ChickenChickenChicken16439;
 import brute_force.Larvae15721;
 import brute_force.SelectThreeNum1503;
 import java.io.IOException;
@@ -15,7 +17,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    Larvae15721 sol = new Larvae15721();
+    ChickenChickenChicken16439 sol = new ChickenChickenChicken16439();
     sol.solution();
 
     // Programmers
