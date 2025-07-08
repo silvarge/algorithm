@@ -3,6 +3,7 @@ import brute_force.ChickenChickenChicken16439;
 import brute_force.Larvae15721;
 import brute_force.SelectThreeNum1503;
 import data_structure.AbsHeap11286;
+import data_structure.Truck13335;
 import java.io.IOException;
 import practice.PriorityQueuePt;
 import set_and_map.AtoB16953;
@@ -18,7 +19,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    AbsHeap11286 sol = new AbsHeap11286();
+    Truck13335 sol = new Truck13335();
     sol.solution();
 
     // Programmers
