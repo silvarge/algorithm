@@ -15,6 +15,7 @@ import set_and_map.SumOfNumber4_2015;
 import set_and_map.SumOfNumber4_2015_re;
 import set_and_map.UnheardOf1764;
 import set_and_map.Zoac3_20436;
+import sort.FrequencySort2910;
 import sort.SerialNumber1431;
 import string.ReverseWord2_2_17413;
 
@@ -22,7 +23,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    SerialNumber1431 sol = new SerialNumber1431();
+    FrequencySort2910 sol = new FrequencySort2910();
     sol.solution();
 
     // Programmers
