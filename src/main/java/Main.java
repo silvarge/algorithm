@@ -1,3 +1,4 @@
+import binary_search.Budget2512;
 import brute_force.AcademicBook16508;
 import brute_force.ChickenChickenChicken16439;
 import brute_force.Larvae15721;
@@ -23,7 +24,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    FrequencySort2910 sol = new FrequencySort2910();
+    Budget2512 sol = new Budget2512();
     sol.solution();
 
     // Programmers
