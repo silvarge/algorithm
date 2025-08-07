@@ -7,6 +7,7 @@ import data_structure.AbsHeap11286;
 import data_structure.Ohbignum17298;
 import data_structure.Parenthesis9012;
 import data_structure.Truck13335;
+import graph.Puzzle1525;
 import graph.Virus2606;
 import java.io.IOException;
 import practice.PriorityQueuePt;
@@ -25,7 +26,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    Virus2606 sol = new Virus2606();
+    Puzzle1525 sol = new Puzzle1525();
     sol.solution();
 
     // Programmers
