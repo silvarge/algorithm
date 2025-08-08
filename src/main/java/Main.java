@@ -8,6 +8,7 @@ import data_structure.Ohbignum17298;
 import data_structure.Parenthesis9012;
 import data_structure.Truck13335;
 import graph.Puzzle1525;
+import graph.SetAddrNum2667;
 import graph.Virus2606;
 import java.io.IOException;
 import practice.PriorityQueuePt;
@@ -26,7 +27,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    Puzzle1525 sol = new Puzzle1525();
+    SetAddrNum2667 sol = new SetAddrNum2667();
     sol.solution();
 
     // Programmers
