@@ -7,6 +7,7 @@ import data_structure.AbsHeap11286;
 import data_structure.Ohbignum17298;
 import data_structure.Parenthesis9012;
 import data_structure.Truck13335;
+import graph.OrganicCabbage1012;
 import graph.Puzzle1525;
 import graph.SetAddrNum2667;
 import graph.Virus2606;
@@ -27,7 +28,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    SetAddrNum2667 sol = new SetAddrNum2667();
+    OrganicCabbage1012 sol = new OrganicCabbage1012();
     sol.solution();
 
     // Programmers
