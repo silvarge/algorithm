@@ -13,6 +13,7 @@ import graph.SetAddrNum2667;
 import graph.Virus2606;
 import java.io.IOException;
 import practice.PriorityQueuePt;
+import recursion.Multiple1629;
 import set_and_map.AtoB16953;
 import set_and_map.CleanUpFile20291;
 import set_and_map.RecommendProblemSystem1_21939;
@@ -28,7 +29,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    OrganicCabbage1012 sol = new OrganicCabbage1012();
+    Multiple1629 sol = new Multiple1629();
     sol.solution();
 
     // Programmers
