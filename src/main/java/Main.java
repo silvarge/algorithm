@@ -14,6 +14,7 @@ import graph.Virus2606;
 import java.io.IOException;
 import practice.PriorityQueuePt;
 import recursion.Multiple1629;
+import recursion.WhatIsRecursion17478;
 import set_and_map.AtoB16953;
 import set_and_map.CleanUpFile20291;
 import set_and_map.RecommendProblemSystem1_21939;
@@ -29,7 +30,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    Multiple1629 sol = new Multiple1629();
+    WhatIsRecursion17478 sol = new WhatIsRecursion17478();
     sol.solution();
 
     // Programmers
