@@ -1,3 +1,4 @@
+import back_tracking.NnM3_15651;
 import binary_search.Budget2512;
 import brute_force.AcademicBook16508;
 import brute_force.ChickenChickenChicken16439;
@@ -30,7 +31,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    WhatIsRecursion17478 sol = new WhatIsRecursion17478();
+    NnM3_15651 sol = new NnM3_15651();
     sol.solution();
 
     // Programmers
