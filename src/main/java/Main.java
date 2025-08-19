@@ -1,11 +1,12 @@
 import java.io.IOException;
+import math.SaveMyScore10984;
 import math.ThreeStick14215;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    ThreeStick14215 sol = new ThreeStick14215();
+    SaveMyScore10984 sol = new SaveMyScore10984();
     sol.solution();
 
     // Programmers
