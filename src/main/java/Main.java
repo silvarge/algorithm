@@ -3,12 +3,13 @@ import math.RoomAllocation13300;
 import math.SaveMyScore10984;
 import math.ThreeStick14215;
 import string.CommandPrompt1032;
+import string.Flip1439;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    CommandPrompt1032 sol = new CommandPrompt1032();
+    Flip1439 sol = new Flip1439();
     sol.solution();
 
     // Programmers
