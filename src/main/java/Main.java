@@ -1,4 +1,5 @@
 import java.io.IOException;
+import math.RoomAllocation13300;
 import math.SaveMyScore10984;
 import math.ThreeStick14215;
 
@@ -6,7 +7,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    SaveMyScore10984 sol = new SaveMyScore10984();
+    RoomAllocation13300 sol = new RoomAllocation13300();
     sol.solution();
 
     // Programmers
