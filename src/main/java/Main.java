@@ -1,5 +1,6 @@
 import back_tracking.NQueen9663;
 import back_tracking.NnM3_15651;
+import back_tracking.NnM4_15652;
 import binary_search.Budget2512;
 import brute_force.AcademicBook16508;
 import brute_force.ChickenChickenChicken16439;
@@ -32,7 +33,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    NQueen9663 sol = new NQueen9663();
+    NnM4_15652 sol = new NnM4_15652();
     sol.solution();
 
     // Programmers
