@@ -2,12 +2,13 @@ import java.io.IOException;
 import math.RoomAllocation13300;
 import math.SaveMyScore10984;
 import math.ThreeStick14215;
+import string.CommandPrompt1032;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    RoomAllocation13300 sol = new RoomAllocation13300();
+    CommandPrompt1032 sol = new CommandPrompt1032();
     sol.solution();
 
     // Programmers
