@@ -1,11 +1,12 @@
 import dynamic_programming.Fibonacci2747;
+import dynamic_programming.MakeOne1463;
 import java.io.IOException;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    Fibonacci2747 sol = new Fibonacci2747();
+    MakeOne1463 sol = new MakeOne1463();
     sol.solution();
 
     // Programmers
