@@ -1,15 +1,11 @@
+import dynamic_programming.Fibonacci2747;
 import java.io.IOException;
-import math.RoomAllocation13300;
-import math.SaveMyScore10984;
-import math.ThreeStick14215;
-import string.CommandPrompt1032;
-import string.Flip1439;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    Flip1439 sol = new Flip1439();
+    Fibonacci2747 sol = new Fibonacci2747();
     sol.solution();
 
     // Programmers
