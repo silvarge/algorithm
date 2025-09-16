@@ -1,12 +1,13 @@
 import dynamic_programming.Fibonacci2747;
 import dynamic_programming.MakeOne1463;
+import greedy.PluginScheduling1700;
 import java.io.IOException;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     // 백준
-    MakeOne1463 sol = new MakeOne1463();
+    PluginScheduling1700 sol = new PluginScheduling1700();
     sol.solution();
 
     // Programmers
